@@ -9,6 +9,7 @@ using System.Globalization;
 using System.IO;
 using MiniProject2Server.ApiHelper;
 using MiniProject2Server.Microservices;
+using MiniProject2Server.Model;
 
 namespace MiniProject2Server
 {
@@ -18,8 +19,10 @@ namespace MiniProject2Server
         private static string message1;  // Type and Date
         private static string message2;  // Color
         private static string message3;  // Driver name and license  
-        private static string logPath = @"C:/Users/Bruger/source/repos/Mini-Project-3-microservices/Log.txt";
+        //private static string logPath = @"C:/Users/Bruger/source/repos/Mini-Project-3-microservices/Log.txt";    // Christoffer
+        private static string logPath = "C:/Users/Jonas/source/repos/Mini-Project-3-microservices/Log.txt";        // Jonas
 
+        private static string initialChoice;
 
         static async Task Main(string[] args)
         {
@@ -46,12 +49,15 @@ namespace MiniProject2Server
 
                 //Variable used within the Received protocol. 
                 int caseSwitch = 1;
+                int caseSwitchChoice = 1;
                 List<Car> availableCars = new List<Car>();
                 List<string> colorsFound = new List<string>();
                 List<Car> availableCarsByColor = new List<Car>();
                 List<Car> chooseCarList = new List<Car>();
                 Car selectedCar = null;
                 bool found = false;
+
+
 
 
                 //Message recevied
@@ -64,21 +70,59 @@ namespace MiniProject2Server
                     replyProps.CorrelationId = props.CorrelationId;
 
                     var message = Encoding.UTF8.GetString(body).ToString();
-                    Console.WriteLine(" [.] Message send from client", message);
+                    //Console.WriteLine(" [.] Message send from client", message);
 
                     File.AppendAllText(logPath, TimeStampForLog(" ", message));
                     //write message down into a TXT log file (not made yet) 
 
-                    message1 = message;
-
-                    if (message1 == "1")
+                    //Choice 1 - Review 
+                    if (message == "1" || initialChoice == "1")
                     {
-                        Console.WriteLine("Feedback");
+                        Review review = new Review(); 
 
-                        //lav rest kald til rest der ikke er oprettet endnu
+                        Console.WriteLine("Feedback section");
+                        initialChoice = "1"; 
+
+                        var responseBytes = Encoding.UTF8.GetBytes("1");
+                        channel.BasicPublish(exchange: "", routingKey: props.ReplyTo,
+                                     basicProperties: replyProps, body: responseBytes);
+                        channel.BasicAck(deliveryTag: ea.DeliveryTag,
+                          multiple: false);
+
+                        switch (caseSwitchChoice)
+                        {
+                            case 1:
+                                Console.WriteLine("Choice case 1 - rating");
+                                File.AppendAllText(logPath, TimeStampForLog("Choice case 1 - rating", message));
+
+                                response = "rating ok";
+                                caseSwitchChoice += 1;
+
+                                channel.BasicPublish(exchange: "", routingKey: props.ReplyTo,
+                                     basicProperties: replyProps, body: responseBytes);
+                                channel.BasicAck(deliveryTag: ea.DeliveryTag,
+                                  multiple: false);
+                                break;
+                            case 2:
+                                Console.WriteLine("Choice case 2 - location");
+                                File.AppendAllText(logPath, TimeStampForLog("Choice case 1 - location", message));
+
+                                response = "location ok";
+                                caseSwitchChoice += 1;
+
+                                channel.BasicPublish(exchange: "", routingKey: props.ReplyTo,
+                                     basicProperties: replyProps, body: responseBytes);
+                                channel.BasicAck(deliveryTag: ea.DeliveryTag,
+                                  multiple: false);
+                                break;
+                            default:
+                                Console.WriteLine("Default case");
+                                break;
+                        }
                     }
                     else
                     {
+                        //Choice 2 - create booking
                         switch (caseSwitch)
                         {
                             //Check avaliablity

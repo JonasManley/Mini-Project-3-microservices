@@ -13,7 +13,7 @@ namespace MiniProject2Client
 
         static void Main(string[] args)
         {
-
+            OptionsCreateOrFeedback();
             Console.WriteLine("---------------------------------------------------------------------------------");
 
             AvailableCars();     
@@ -48,19 +48,21 @@ namespace MiniProject2Client
         {
             Console.WriteLine("Car Rental");
             Console.WriteLine("You have two choice:");
-            Console.WriteLine("Type 1 to create a new booking");
-            Console.WriteLine("Type 2 to give feedback");
+            Console.WriteLine("Type 1 to give feedback");
+            Console.WriteLine("Type 2    to create a new booking");
             var inputCar = Console.ReadLine();
             Console.WriteLine($" [x] your choice were: {inputCar}");
-            var responseAvailable = Client.Call(inputCar);
+            var responseOption = Client.Call(inputCar);
 
-
-            if (responseAvailable == "bil blev ikke fundet")
+            if (responseOption == "1")
             {
-                Console.WriteLine($" [.] Got: '{responseAvailable}'");
-                AvailableCars();
+                Console.WriteLine("Du skal nu til lave et review");
+                Console.WriteLine("Hvor man sjerner vil du give servicen? 1-5 :");
+                var inputName = Console.ReadLine();
+
+                var responseFromName = Client.Call(inputName);
             }
-            Console.WriteLine($" [.] Got: '{responseAvailable}'");
+            Console.WriteLine($" [.] Got: '{responseOption}'");
         }
 
         /// <summary>
