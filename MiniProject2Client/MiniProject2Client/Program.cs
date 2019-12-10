@@ -13,9 +13,12 @@ namespace MiniProject2Client
 
         static void Main(string[] args)
         {
+
+            Console.WriteLine("---------------------------------------------------------------------------------");
+
             AvailableCars();     
             Console.WriteLine("---------------------------------------------------------------------------------");
-            
+
             var responseColor = Client.Call(" ");
             Console.WriteLine($" [.] Colors available: {responseColor}");
 
@@ -38,13 +41,33 @@ namespace MiniProject2Client
             Console.ReadLine();
         }
 
+        /// <summary>
+        /// Gets all the available cars based on type and car typed in CW.
+        /// </summary>
+        private static void OptionsCreateOrFeedback()
+        {
+            Console.WriteLine("Car Rental");
+            Console.WriteLine("You have two choice:");
+            Console.WriteLine("Type 1 to create a new booking");
+            Console.WriteLine("Type 2 to give feedback");
+            var inputCar = Console.ReadLine();
+            Console.WriteLine($" [x] your choice were: {inputCar}");
+            var responseAvailable = Client.Call(inputCar);
+
+
+            if (responseAvailable == "bil blev ikke fundet")
+            {
+                Console.WriteLine($" [.] Got: '{responseAvailable}'");
+                AvailableCars();
+            }
+            Console.WriteLine($" [.] Got: '{responseAvailable}'");
+        }
 
         /// <summary>
         /// Gets all the available cars based on type and car typed in CW.
         /// </summary>
         private static void AvailableCars()
         {
-            Console.WriteLine("Car Rental");
             Console.WriteLine("Type what car you want and a date to see availability, like: Audi 22/01/1996");
             var inputCar = Console.ReadLine();
             Console.WriteLine($" [x] searching for: {inputCar}");
