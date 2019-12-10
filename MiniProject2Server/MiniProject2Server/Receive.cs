@@ -32,7 +32,7 @@ namespace MiniProject2Server
             //EIP "Channel" created on localhost with help of MqRabbit ref.. 
             var factory = new ConnectionFactory() { HostName = "localhost" };
             using (var connection = factory.CreateConnection())
-            using (var channel = connection.CreateModel())
+            using (var channel = connection.CreateModel()
             {
                 //Declaring of the que to send messages to. 
                 channel.QueueDeclare(queue: "rpc_queue", durable: false,
