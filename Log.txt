@@ -146,3 +146,22 @@
 13/11/2019 21:49:11  : Christoffer Dunk 2614123125412
 13/11/2019 21:49:11 case 5 - create booking: Christoffer Dunk 2614123125412
 13/11/2019 21:49:11 case 5 - create booking: Audi 20/11/2019 Christoffer Dunk 2614123125412
+10-12-2019 16:35:36  : Audi 22/01/1996
+10-12-2019 16:35:36 Case 1 - Check avaliablity: Audi 22/01/1996
+10-12-2019 16:35:36 Case 1 - Check avaliablity: bil blev ikke fundet
+10-12-2019 16:37:08  : Audi 20/11/2019
+10-12-2019 16:37:08 Case 1 - Check avaliablity: Audi 20/11/2019
+10-12-2019 16:37:08 Case 1 - Check avaliablity: bil blev fundet
+10-12-2019 16:37:08  :  
+10-12-2019 16:37:08 case 2 - choose color:  
+10-12-2019 16:37:08 case 2 - choose color:  red blue black green
+10-12-2019 16:38:34  : red
+10-12-2019 16:38:34 case 3 - choose car: red
+10-12-2019 16:38:34 case 3 - choose car: Audi red 35000 20/11/2019 -Audi red 45000 20/11/2019 -
+10-12-2019 16:38:40  : 2
+10-12-2019 16:38:40 case 4 - selecet car: 2
+10-12-2019 16:38:40 case 4 - selecet car: selected CAR: Audi red 45000 20/11/2019 
+10-12-2019 16:38:40 case 4 - selecet car: 2
+10-12-2019 16:39:04  : christoffer dunk ring 20001230
+10-12-2019 16:39:04 case 5 - create booking: christoffer dunk ring 20001230
+10-12-2019 16:39:04 case 5 - create booking: Audi 20/11/2019 christoffer dunk ring 20001230

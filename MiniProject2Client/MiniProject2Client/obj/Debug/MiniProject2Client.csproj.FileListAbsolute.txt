@@ -9,3 +9,14 @@ C:\Users\Jonas\source\repos\Mini-Project-2-enterprise-integration-patterns\MiniP
 C:\Users\Jonas\source\repos\Mini-Project-2-enterprise-integration-patterns\MiniProject2Client\MiniProject2Client\obj\Debug\MiniProject2Client.csproj.CopyComplete
 C:\Users\Jonas\source\repos\Mini-Project-2-enterprise-integration-patterns\MiniProject2Client\MiniProject2Client\obj\Debug\MiniProject2Client.exe
 C:\Users\Jonas\source\repos\Mini-Project-2-enterprise-integration-patterns\MiniProject2Client\MiniProject2Client\obj\Debug\MiniProject2Client.pdb
+C:\Users\Bruger\source\repos\Mini-Project-3-microservices\MiniProject2Client\MiniProject2Client\bin\Debug\MiniProject2Client.exe.config
+C:\Users\Bruger\source\repos\Mini-Project-3-microservices\MiniProject2Client\MiniProject2Client\bin\Debug\MiniProject2Client.exe
+C:\Users\Bruger\source\repos\Mini-Project-3-microservices\MiniProject2Client\MiniProject2Client\bin\Debug\MiniProject2Client.pdb
+C:\Users\Bruger\source\repos\Mini-Project-3-microservices\MiniProject2Client\MiniProject2Client\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\Users\Bruger\source\repos\Mini-Project-3-microservices\MiniProject2Client\MiniProject2Client\bin\Debug\RabbitMQ.Client.dll
+C:\Users\Bruger\source\repos\Mini-Project-3-microservices\MiniProject2Client\MiniProject2Client\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+C:\Users\Bruger\source\repos\Mini-Project-3-microservices\MiniProject2Client\MiniProject2Client\bin\Debug\RabbitMQ.Client.xml
+C:\Users\Bruger\source\repos\Mini-Project-3-microservices\MiniProject2Client\MiniProject2Client\obj\Debug\MiniProject2Client.csprojAssemblyReference.cache
+C:\Users\Bruger\source\repos\Mini-Project-3-microservices\MiniProject2Client\MiniProject2Client\obj\Debug\MiniProject2Client.csproj.CopyComplete
+C:\Users\Bruger\source\repos\Mini-Project-3-microservices\MiniProject2Client\MiniProject2Client\obj\Debug\MiniProject2Client.exe
+C:\Users\Bruger\source\repos\Mini-Project-3-microservices\MiniProject2Client\MiniProject2Client\obj\Debug\MiniProject2Client.pdb
