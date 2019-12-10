@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MiniProject2Server
 {
-    class Car
+    public class Car
     {
         private string type;
         private string date;

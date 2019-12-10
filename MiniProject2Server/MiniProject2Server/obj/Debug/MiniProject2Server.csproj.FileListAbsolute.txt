@@ -33,3 +33,17 @@ C:\Users\Jonas\Documents\GitHub\Mini-Project-2-enterprise-integration-patterns\M
 C:\Users\Jonas\Documents\GitHub\Mini-Project-2-enterprise-integration-patterns\MiniProject2Server\MiniProject2Server\obj\Debug\MiniProject2Server.csproj.CopyComplete
 C:\Users\Jonas\Documents\GitHub\Mini-Project-2-enterprise-integration-patterns\MiniProject2Server\MiniProject2Server\obj\Debug\MiniProject2Server.exe
 C:\Users\Jonas\Documents\GitHub\Mini-Project-2-enterprise-integration-patterns\MiniProject2Server\MiniProject2Server\obj\Debug\MiniProject2Server.pdb
+C:\Users\Jonas\Documents\GitHub\Mini-Project-3-microservices\MiniProject2Server\MiniProject2Server\obj\Debug\MiniProject2Server.exe
+C:\Users\Jonas\Documents\GitHub\Mini-Project-3-microservices\MiniProject2Server\MiniProject2Server\obj\Debug\MiniProject2Server.pdb
+C:\Users\Jonas\Documents\GitHub\Mini-Project-3-microservices\MiniProject2Server\MiniProject2Server\bin\Debug\MiniProject2Server.exe.config
+C:\Users\Jonas\Documents\GitHub\Mini-Project-3-microservices\MiniProject2Server\MiniProject2Server\bin\Debug\MiniProject2Server.exe
+C:\Users\Jonas\Documents\GitHub\Mini-Project-3-microservices\MiniProject2Server\MiniProject2Server\bin\Debug\MiniProject2Server.pdb
+C:\Users\Jonas\Documents\GitHub\Mini-Project-3-microservices\MiniProject2Server\MiniProject2Server\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\Users\Jonas\Documents\GitHub\Mini-Project-3-microservices\MiniProject2Server\MiniProject2Server\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jonas\Documents\GitHub\Mini-Project-3-microservices\MiniProject2Server\MiniProject2Server\bin\Debug\RabbitMQ.Client.dll
+C:\Users\Jonas\Documents\GitHub\Mini-Project-3-microservices\MiniProject2Server\MiniProject2Server\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Jonas\Documents\GitHub\Mini-Project-3-microservices\MiniProject2Server\MiniProject2Server\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+C:\Users\Jonas\Documents\GitHub\Mini-Project-3-microservices\MiniProject2Server\MiniProject2Server\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jonas\Documents\GitHub\Mini-Project-3-microservices\MiniProject2Server\MiniProject2Server\bin\Debug\RabbitMQ.Client.xml
+C:\Users\Jonas\Documents\GitHub\Mini-Project-3-microservices\MiniProject2Server\MiniProject2Server\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Jonas\Documents\GitHub\Mini-Project-3-microservices\MiniProject2Server\MiniProject2Server\obj\Debug\MiniProject2Server.csproj.CopyComplete

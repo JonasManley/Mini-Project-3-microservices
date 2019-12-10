@@ -7,6 +7,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Globalization;
 using System.IO;
+using MiniProject2Server.ApiHelper;
+using MiniProject2Server.Microservices;
 
 namespace MiniProject2Server
 {
@@ -19,8 +21,14 @@ namespace MiniProject2Server
         private static string logPath = @"C:\Users\Jonas\source\repos\Mini-Project-2-enterprise-integration-patterns\Log.txt";
 
 
-        public static void Main()
+        static async Task Main(string[] args)
         {
+            //Fetching all cars 
+            Apihelper.InitializeClient();
+            Processor processor = new Processor();
+            await processor.getBookings();
+
+
             //EIP "Channel" created on localhost with help of MqRabbit ref.. 
             var factory = new ConnectionFactory() { HostName = "localhost" };
             using (var connection = factory.CreateConnection())
@@ -78,8 +86,8 @@ namespace MiniProject2Server
                             string date = messageArray[1];
                             //EIP - Splitter ---------------------------------------
 
-                            DataStorage dataStorage = new DataStorage();
-                            foreach (var car in dataStorage.CarList)
+                            
+                            foreach (var car in processor.CarList)
                             {
                                 if (car.Type == carType && car.Date == date)
                                 {

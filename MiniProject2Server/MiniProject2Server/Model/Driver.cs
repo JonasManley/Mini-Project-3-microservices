@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MiniProject2Server
 {
-    class Driver
+    public class Driver
     {
         private string name;
         private string driverlicense;
