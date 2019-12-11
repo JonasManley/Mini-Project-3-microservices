@@ -1,0 +1,13 @@
+C:\Users\Bruger\source\repos\Mini-Project-3-microservices\ShowReviews\ShowReviews\bin\Debug\netcoreapp3.0\ShowReviews.exe
+C:\Users\Bruger\source\repos\Mini-Project-3-microservices\ShowReviews\ShowReviews\obj\Debug\netcoreapp3.0\ShowReviews.csprojAssemblyReference.cache
+C:\Users\Bruger\source\repos\Mini-Project-3-microservices\ShowReviews\ShowReviews\obj\Debug\netcoreapp3.0\ShowReviews.AssemblyInfoInputs.cache
+C:\Users\Bruger\source\repos\Mini-Project-3-microservices\ShowReviews\ShowReviews\obj\Debug\netcoreapp3.0\ShowReviews.AssemblyInfo.cs
+C:\Users\Bruger\source\repos\Mini-Project-3-microservices\ShowReviews\ShowReviews\bin\Debug\netcoreapp3.0\ShowReviews.deps.json
+C:\Users\Bruger\source\repos\Mini-Project-3-microservices\ShowReviews\ShowReviews\bin\Debug\netcoreapp3.0\ShowReviews.runtimeconfig.json
+C:\Users\Bruger\source\repos\Mini-Project-3-microservices\ShowReviews\ShowReviews\bin\Debug\netcoreapp3.0\ShowReviews.runtimeconfig.dev.json
+C:\Users\Bruger\source\repos\Mini-Project-3-microservices\ShowReviews\ShowReviews\bin\Debug\netcoreapp3.0\ShowReviews.dll
+C:\Users\Bruger\source\repos\Mini-Project-3-microservices\ShowReviews\ShowReviews\bin\Debug\netcoreapp3.0\ShowReviews.pdb
+C:\Users\Bruger\source\repos\Mini-Project-3-microservices\ShowReviews\ShowReviews\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\Bruger\source\repos\Mini-Project-3-microservices\ShowReviews\ShowReviews\obj\Debug\netcoreapp3.0\ShowReviews.csproj.CopyComplete
+C:\Users\Bruger\source\repos\Mini-Project-3-microservices\ShowReviews\ShowReviews\obj\Debug\netcoreapp3.0\ShowReviews.dll
+C:\Users\Bruger\source\repos\Mini-Project-3-microservices\ShowReviews\ShowReviews\obj\Debug\netcoreapp3.0\ShowReviews.pdb
