@@ -4,3 +4,7 @@ MiniProject2Client/.vs/MiniProject2Client/v16/Server/sqlite3/storage.ide
 MiniProject2Server/.vs/MiniProject2Server/v16/.suo
 MiniProject2Server/.vs/MiniProject2Server/v16/Server/sqlite3/storage.ide
 *.ide
+*.pdb
+*.exe
+MiniProject2Server/.vs/MiniProject2Server/v16/.suo
+*.exe

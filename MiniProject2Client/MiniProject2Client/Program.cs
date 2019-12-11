@@ -10,33 +10,39 @@ namespace MiniProject2Client
     class Program
     {
         public static Client Client = new Client();
+        public static int caseVariable;
 
         static void Main(string[] args)
         {
+           
+
             OptionsCreateOrFeedback();
             Console.WriteLine("---------------------------------------------------------------------------------");
 
-            AvailableCars();     
-            Console.WriteLine("---------------------------------------------------------------------------------");
+            if(caseVariable == 1)
+            {
 
-            var responseColor = Client.Call(" ");
-            Console.WriteLine($" [.] Colors available: {responseColor}");
+            }
+            else
+            {
+                AvailableCars();
+                Console.WriteLine("---------------------------------------------------------------------------------");
 
-            Console.WriteLine("---------------------------------------------------------------------------------");
-            ColoredCars();
-            Console.WriteLine("---------------------------------------------------------------------------------");
-            RentCar();
-            Console.WriteLine("---------------------------------------------------------------------------------");
+                var responseColor = Client.Call(" ");
+                Console.WriteLine($" [.] Colors available: {responseColor}");
 
-            Console.WriteLine("Please provide us with your full name and driverlicens");
-            var inputNameAndLicense = Console.ReadLine();
-            Console.WriteLine($" [.] informations: {inputNameAndLicense}");
-            var responseNameAndLicense = Client.Call(inputNameAndLicense);
-            Console.WriteLine("Agregation: " + responseNameAndLicense);
+                Console.WriteLine("---------------------------------------------------------------------------------");
+                ColoredCars();
+                Console.WriteLine("---------------------------------------------------------------------------------");
+                RentCar();
+                Console.WriteLine("---------------------------------------------------------------------------------");
 
-
-
-
+                Console.WriteLine("Please provide us with your full name and driverlicens");
+                var inputNameAndLicense = Console.ReadLine();
+                Console.WriteLine($" [.] informations: {inputNameAndLicense}");
+                var responseNameAndLicense = Client.Call(inputNameAndLicense);
+                Console.WriteLine("Agregation: " + responseNameAndLicense);
+            }
             Client.Close();
             Console.ReadLine();
         }
@@ -54,8 +60,13 @@ namespace MiniProject2Client
             Console.WriteLine($" [x] your choice were: {inputCar}");
             var responseOption = Client.Call(inputCar);
 
-            if (responseOption == "1")
+            if (responseOption != "1")
             {
+                OptionsCreateOrFeedback();
+            }
+            else
+            {
+
                 Console.WriteLine("Du skal nu til lave et review");
                 Console.WriteLine("Hvor man sjerner vil du give servicen? 1-5 :");
                 var inputName = Console.ReadLine();
