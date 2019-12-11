@@ -9,8 +9,8 @@ namespace MiniProject2Server.Model
     public class Review
     {
         private int rating;
-        private string location;
         private string description;
+        private string location;
         private string gender;
         private int age;
 

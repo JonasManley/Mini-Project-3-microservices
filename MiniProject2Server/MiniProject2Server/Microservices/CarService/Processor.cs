@@ -24,7 +24,6 @@ namespace MiniProject2Server.Microservices
                 {
                     var responseJSON = await responseMessage.Content.ReadAsStringAsync();
                     carList = JsonConvert.DeserializeObject<List<Car>>(responseJSON);
-
                 }
             }
         }

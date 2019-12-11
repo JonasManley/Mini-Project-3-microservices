@@ -1,218 +1,41 @@
-13/11/2019 16:12:00  : dsa 1251243
-13/11/2019 16:12:00 Case 1 - Check avaliablity: dsa 1251243
-13/11/2019 16:12:00 Case 1 - Check avaliablity: bil blev ikke fundet
-13/11/2019 16:12:09  : Audi 20/11/2019
-13/11/2019 16:12:09 Case 1 - Check avaliablity: Audi 20/11/2019
-13/11/2019 16:12:09 Case 1 - Check avaliablity: bil blev fundet
-13/11/2019 16:12:09  :  
-13/11/2019 16:12:09 case 2 - choose color:  
-13/11/2019 16:12:09 case 2 - choose color:  red blue black green
-13/11/2019 16:12:20  : red
-13/11/2019 16:12:20 case 3 - choose car: red
-13/11/2019 16:12:20 case 3 - choose car: Audi red 35000 20/11/2019 -Audi red 45000 20/11/2019 -
-13/11/2019 16:12:22  : 2
-13/11/2019 16:12:22 case 4 - selecet car: 2
-13/11/2019 16:12:22 case 4 - selecet car: selected CAR: Audi red 45000 20/11/2019 
-13/11/2019 16:12:22 case 4 - selecet car: 2
-13/11/2019 16:12:26  : jonas Pedersen 12512412312
-13/11/2019 16:12:26 case 5 - create booking: jonas Pedersen 12512412312
-13/11/2019 16:12:26 case 5 - create booking: Audi 20/11/2019 jonas Pedersen 12512412312
-13/11/2019 16:13:00  : Audi 20/11/2019
-13/11/2019 16:13:00 Case 1 - Check avaliablity: Audi 20/11/2019
-13/11/2019 16:13:00 Case 1 - Check avaliablity: bil blev fundet
-13/11/2019 16:13:01  :  
-13/11/2019 16:13:01 case 2 - choose color:  
-13/11/2019 16:13:01 case 2 - choose color:  red blue black green
-13/11/2019 16:13:04  : reed
-13/11/2019 16:13:04 case 3 - choose car: reed
-13/11/2019 16:13:04 case 3 - choose car: 
-13/11/2019 16:16:08  : reed
-13/11/2019 16:16:09 Case 1 - Check avaliablity: reed
-13/11/2019 16:17:26  : Audi 20/11/2019
-13/11/2019 16:17:26 Case 1 - Check avaliablity: Audi 20/11/2019
-13/11/2019 16:17:26 Case 1 - Check avaliablity: bil blev fundet
-13/11/2019 16:17:26  :  
-13/11/2019 16:17:26 case 2 - choose color:  
-13/11/2019 16:17:26 case 2 - choose color:  red blue black green
-13/11/2019 16:17:27  : 
-13/11/2019 16:17:27 case 3 - choose car: 
-13/11/2019 16:17:27 case 3 - choose car: Please type a color to preceed
-13/11/2019 16:17:27 case 3 - choose car: Please type a color to preceed
-13/11/2019 16:17:35  : reeed
-13/11/2019 16:17:35 case 4 - selecet car: reeed
-13/11/2019 16:19:59  : Audi 20/11/2019
-13/11/2019 16:19:59 Case 1 - Check avaliablity: Audi 20/11/2019
-13/11/2019 16:19:59 Case 1 - Check avaliablity: bil blev fundet
-13/11/2019 16:19:59  :  
-13/11/2019 16:19:59 case 2 - choose color:  
-13/11/2019 16:19:59 case 2 - choose color:  red blue black green
-13/11/2019 16:20:01  : reeed
-13/11/2019 16:20:01 case 3 - choose car: reeed
-13/11/2019 16:20:01 case 3 - choose car: Spelling ERORR, please try agian
-13/11/2019 16:20:09  : red
-13/11/2019 16:20:09 case 3 - choose car: red
-13/11/2019 16:20:09 case 3 - choose car: Audi red 35000 20/11/2019 -Audi red 45000 20/11/2019 -
-13/11/2019 16:20:12  : 3
-13/11/2019 16:20:12 case 4 - selecet car: 3
-13/11/2019 16:20:12 case 4 - selecet car: The number is not valid, try with a differnt one
-13/11/2019 16:20:12 case 4 - selecet car: 3
-13/11/2019 16:20:15  : 0
-13/11/2019 16:20:15 case 5 - create booking: 0
-13/11/2019 16:22:20  : 0
-13/11/2019 16:22:20 Case 1 - Check avaliablity: 0
-13/11/2019 16:26:24  : Audi 20/11/2019
-13/11/2019 16:26:24 Case 1 - Check avaliablity: Audi 20/11/2019
-13/11/2019 16:26:24 Case 1 - Check avaliablity: bil blev fundet
-13/11/2019 16:26:24  :  
-13/11/2019 16:26:24 case 2 - choose color:  
-13/11/2019 16:26:24 case 2 - choose color:  red blue black green
-13/11/2019 16:26:26  : red
-13/11/2019 16:26:26 case 3 - choose car: red
-13/11/2019 16:26:26 case 3 - choose car: Audi red 35000 20/11/2019 -Audi red 45000 20/11/2019 -
-13/11/2019 16:26:28  : 0
-13/11/2019 16:26:28 case 4 - selecet car: 0
-13/11/2019 16:26:28 case 4 - selecet car: The number is not valid, try with a differnt one
-13/11/2019 16:26:28 case 4 - selecet car: 0
-13/11/2019 16:26:31  : 1
-13/11/2019 16:26:31 case 4 - selecet car: 1
-13/11/2019 16:26:31 case 4 - selecet car: selected CAR: Audi red 35000 20/11/2019 
-13/11/2019 16:26:31 case 4 - selecet car: 1
-13/11/2019 16:26:36  : Jonas Pedersen 225124312312
-13/11/2019 16:26:36 case 5 - create booking: Jonas Pedersen 225124312312
-13/11/2019 16:26:36 case 5 - create booking: Audi 20/11/2019 Jonas Pedersen 225124312312
-13/11/2019 21:38:43  : red
-13/11/2019 21:38:43 Case 1 - Check avaliablity: red
-13/11/2019 21:40:17  : Audi 20/11/2019
-13/11/2019 21:40:17 Case 1 - Check avaliablity: Audi 20/11/2019
-13/11/2019 21:40:17 Case 1 - Check avaliablity: bil blev fundet
-13/11/2019 21:40:17  :  
-13/11/2019 21:40:17 case 2 - choose color:  
-13/11/2019 21:40:17 case 2 - choose color:  red blue black green
-13/11/2019 21:40:19  : red
-13/11/2019 21:40:19 case 3 - choose car: red
-13/11/2019 21:40:19 case 3 - choose car: Audi red 35000 20/11/2019 -Audi red 45000 20/11/2019 -
-13/11/2019 21:40:20  : 2
-13/11/2019 21:40:20 case 4 - selecet car: 2
-13/11/2019 21:40:20 case 4 - selecet car: selected CAR: Audi red 45000 20/11/2019 
-13/11/2019 21:40:20 case 4 - selecet car: 2
-13/11/2019 21:40:33  : Christoffer dunk 87561236178
-13/11/2019 21:40:33 case 5 - create booking: Christoffer dunk 87561236178
-13/11/2019 21:40:33 case 5 - create booking: Audi 20/11/2019 Christoffer dunk 87561236178
-13/11/2019 21:43:50  : Fiat 22/11/2019
-13/11/2019 21:43:50 Case 1 - Check avaliablity: Fiat 22/11/2019
-13/11/2019 21:43:50 Case 1 - Check avaliablity: bil blev fundet
-13/11/2019 21:43:50  :  
-13/11/2019 21:43:50 case 2 - choose color:  
-13/11/2019 21:43:50 case 2 - choose color:  blue
-13/11/2019 21:43:53  : blue
-13/11/2019 21:43:53 case 3 - choose car: blue
-13/11/2019 21:43:53 case 3 - choose car: Fiat blue 6000 22/11/2019 -
-13/11/2019 21:43:55  : 1
-13/11/2019 21:43:55 case 4 - selecet car: 1
-13/11/2019 21:43:55 case 4 - selecet car: selected CAR: Fiat blue 6000 22/11/2019 
-13/11/2019 21:43:55 case 4 - selecet car: 1
-13/11/2019 21:44:07  : Valdemar Eriksen 6124125612412
-13/11/2019 21:44:07 case 5 - create booking: Valdemar Eriksen 6124125612412
-13/11/2019 21:44:07 case 5 - create booking: Fiat 22/11/2019 Valdemar Eriksen 6124125612412
-13/11/2019 21:47:29  : Fiat 22/11/2019
-13/11/2019 21:47:29 Case 1 - Check avaliablity: Fiat 22/11/2019
-13/11/2019 21:47:29 Case 1 - Check avaliablity: bil blev fundet
-13/11/2019 21:47:29  :  
-13/11/2019 21:47:29 case 2 - choose color:  
-13/11/2019 21:47:29 case 2 - choose color:  blue
-13/11/2019 21:47:31  : blue
-13/11/2019 21:47:31 case 3 - choose car: blue
-13/11/2019 21:47:31 case 3 - choose car: Fiat blue 6000 22/11/2019 -
-13/11/2019 21:47:34  : 1
-13/11/2019 21:47:34 case 4 - selecet car: 1
-13/11/2019 21:47:34 case 4 - selecet car: selected CAR: Fiat blue 6000 22/11/2019 
-13/11/2019 21:47:34 case 4 - selecet car: 1
-13/11/2019 21:47:42  : Jonas Pedersen 251241251923
-13/11/2019 21:47:42 case 5 - create booking: Jonas Pedersen 251241251923
-13/11/2019 21:47:42 case 5 - create booking: Fiat 22/11/2019 Jonas Pedersen 251241251923
-13/11/2019 21:48:58  : Audi 20/11/2019
-13/11/2019 21:48:58 Case 1 - Check avaliablity: Audi 20/11/2019
-13/11/2019 21:48:58 Case 1 - Check avaliablity: bil blev fundet
-13/11/2019 21:48:58  :  
-13/11/2019 21:48:58 case 2 - choose color:  
-13/11/2019 21:48:58 case 2 - choose color:  red blue black green
-13/11/2019 21:49:00  : red
-13/11/2019 21:49:00 case 3 - choose car: red
-13/11/2019 21:49:00 case 3 - choose car: Audi red 35000 20/11/2019 -Audi red 45000 20/11/2019 -
-13/11/2019 21:49:01  : 2
-13/11/2019 21:49:01 case 4 - selecet car: 2
-13/11/2019 21:49:01 case 4 - selecet car: selected CAR: Audi red 45000 20/11/2019 
-13/11/2019 21:49:01 case 4 - selecet car: 2
-13/11/2019 21:49:11  : Christoffer Dunk 2614123125412
-13/11/2019 21:49:11 case 5 - create booking: Christoffer Dunk 2614123125412
-13/11/2019 21:49:11 case 5 - create booking: Audi 20/11/2019 Christoffer Dunk 2614123125412
-10-12-2019 16:35:36  : Audi 22/01/1996
-10-12-2019 16:35:36 Case 1 - Check avaliablity: Audi 22/01/1996
-10-12-2019 16:35:36 Case 1 - Check avaliablity: bil blev ikke fundet
-10-12-2019 16:37:08  : Audi 20/11/2019
-10-12-2019 16:37:08 Case 1 - Check avaliablity: Audi 20/11/2019
-10-12-2019 16:37:08 Case 1 - Check avaliablity: bil blev fundet
-10-12-2019 16:37:08  :  
-10-12-2019 16:37:08 case 2 - choose color:  
-10-12-2019 16:37:08 case 2 - choose color:  red blue black green
-10-12-2019 16:38:34  : red
-10-12-2019 16:38:34 case 3 - choose car: red
-10-12-2019 16:38:34 case 3 - choose car: Audi red 35000 20/11/2019 -Audi red 45000 20/11/2019 -
-10-12-2019 16:38:40  : 2
-10-12-2019 16:38:40 case 4 - selecet car: 2
-10-12-2019 16:38:40 case 4 - selecet car: selected CAR: Audi red 45000 20/11/2019 
-10-12-2019 16:38:40 case 4 - selecet car: 2
-10-12-2019 16:39:04  : christoffer dunk ring 20001230
-10-12-2019 16:39:04 case 5 - create booking: christoffer dunk ring 20001230
-10-12-2019 16:39:04 case 5 - create booking: Audi 20/11/2019 christoffer dunk ring 20001230
-10/12/2019 20:07:42  : 1
-10/12/2019 20:08:08  : 1
-10/12/2019 20:09:52  : 1
-10/12/2019 20:11:44  : 1
-10/12/2019 20:14:01  : 2
-10/12/2019 20:14:01 Case 1 - Check avaliablity: 2
-10/12/2019 20:28:46  : 1
-10/12/2019 20:28:53  : 
-10/12/2019 20:28:53 Case 1 - Check avaliablity: 
-10/12/2019 20:55:28  : 1
-10/12/2019 20:55:28 Choice case 1 - Name: 1
-11/12/2019 09:54:37  : jonas
-11/12/2019 09:54:38 Case 1 - Check avaliablity: jonas
-11/12/2019 09:57:12  : 2
-11/12/2019 09:57:12 Case 1 - Check avaliablity: 2
-11/12/2019 10:00:10  : 2
-11/12/2019 10:00:20  : Audi 20/11/2019
-11/12/2019 10:02:42  : 2
-11/12/2019 10:02:42 Case 1 - Check avaliablity: 2
-11/12/2019 10:05:27  : 2
-11/12/2019 10:05:29  : 2
-11/12/2019 10:05:30  : 2
-11/12/2019 10:05:30  : 1
-11/12/2019 10:05:30 Choice case 1 - rating: 1
-11/12/2019 10:09:00  : 5
-11/12/2019 10:09:00  : Audi 20/11/2019
-11/12/2019 10:09:17  : 2
-11/12/2019 10:09:22  : 
-11/12/2019 10:09:24  : 
-11/12/2019 10:09:24  : 
-11/12/2019 10:11:22  : 2
-11/12/2019 10:13:02  : 2
-11/12/2019 10:13:12  : Audi 20/11/2019
-11/12/2019 10:13:12  :  
-11/12/2019 10:13:21  : red
-11/12/2019 10:14:33  : 2
-11/12/2019 10:14:41  : Audi 20/11/2019
-11/12/2019 10:14:41  :  
-11/12/2019 10:16:48  : 2
-11/12/2019 10:16:53  : Audi 20/11/2019
-11/12/2019 10:16:53  :  
-11/12/2019 10:17:58  : 2
-11/12/2019 10:18:03  : Audi 20/11/2019
-11/12/2019 10:18:03 Case 1 - Check avaliablity: Audi 20/11/2019
-11/12/2019 10:18:03 Case 1 - Check avaliablity: bil blev fundet
-11/12/2019 10:18:03  :  
-11/12/2019 10:18:03 case 2 - choose color:  
-11/12/2019 10:18:03 case 2 - choose color:  red blue black green
-11/12/2019 10:18:04  : red
-11/12/2019 10:18:04 case 3 - choose car: red
-11/12/2019 10:18:04 case 3 - choose car: Audi red 35000 20/11/2019 -Audi red 45000 20/11/2019 -
+11/12/2019 15:14:25  with message: R
+11/12/2019 15:14:25 Feedback section = 1with message: R
+11/12/2019 15:14:25 Choice case 1 - ratingwith message: R
+11/12/2019 15:14:25 rating okwith message: R
+11/12/2019 15:15:50  with message: R
+11/12/2019 15:15:50 Feedback section = 1with message: R
+11/12/2019 15:15:50 Choice case 1 - ratingwith message: R
+11/12/2019 15:15:50 rating okwith message: R
+11/12/2019 15:19:07  with message: R 3
+11/12/2019 15:19:07 Feedback section = 1with message: R 3
+11/12/2019 15:19:07 Choice case 1 - rating with message: R 3
+11/12/2019 15:19:07 rating okwith message: R 3
+11/12/2019 15:19:10  with message: R kildevej 12
+11/12/2019 15:19:10 Feedback section = 1with message: R kildevej 12
+11/12/2019 15:25:40  with message: R
+11/12/2019 15:25:47 Feedback section = 1with message: R
+11/12/2019 15:25:54 Choice case 1 - rating with message: R
+11/12/2019 15:25:54 rating okwith message: R
+11/12/2019 15:27:23  with message: R
+11/12/2019 15:27:23 Feedback section = 1with message: R
+11/12/2019 15:27:25  with message: R 4
+11/12/2019 15:27:25 Feedback section = 1with message: R 4
+11/12/2019 15:27:31  with message: R kildevej 19
+11/12/2019 15:27:31 Feedback section = 1with message: R kildevej 19
+11/12/2019 15:27:56  with message: R
+11/12/2019 15:27:56 Feedback section = 1with message: R
+11/12/2019 15:27:57  with message: R 4
+11/12/2019 15:27:57 Choice case 1 - rating with message: R 4
+11/12/2019 15:27:57 rating okwith message: R 4
+11/12/2019 15:28:09  with message: R kile
+11/12/2019 15:28:09 Choice case 2 - Locationwith message: R kile
+11/12/2019 15:28:09 Location registeredwith message: R kile
+11/12/2019 15:28:20  with message: R fgfhsajnblk ajfgn sanga 
+11/12/2019 15:28:20 Choice case 3 - descriptionwith message: R fgfhsajnblk ajfgn sanga 
+11/12/2019 15:28:20 description registered okwith message: R fgfhsajnblk ajfgn sanga 
+11/12/2019 15:28:25  with message: R male 
+11/12/2019 15:28:25 Choice case 4 - genderwith message: R male 
+11/12/2019 15:28:25 gender registered okwith message: R male 
+11/12/2019 15:28:29  with message: R 21
+11/12/2019 15:28:29 Choice case 4 - agewith message: R 21
+11/12/2019 15:28:29 Age registered okwith message: R 21

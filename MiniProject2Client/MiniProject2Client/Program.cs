@@ -21,7 +21,20 @@ namespace MiniProject2Client
 
             if(caseVariable == 1)
             {
+                Rating();
+                Console.WriteLine("---------------------------------------------------------------------------------");
+                Location();
+                Console.WriteLine("---------------------------------------------------------------------------------");
+                Description();
+                Console.WriteLine("---------------------------------------------------------------------------------");
+                Gender();
+                Console.WriteLine("---------------------------------------------------------------------------------");
+                Age();
+                Console.WriteLine("---------------------------------------------------------------------------------");
 
+                Console.WriteLine("Hit enter to close session");
+                Console.ReadLine();
+                Client.Close();
             }
             else if(caseVariable == 2)
             {
@@ -42,13 +55,19 @@ namespace MiniProject2Client
                 Console.WriteLine($" [.] informations: {inputNameAndLicense}");
                 var responseNameAndLicense = Client.Call(inputNameAndLicense);
                 Console.WriteLine("Agregation: " + responseNameAndLicense);
+                Console.WriteLine("---------------------------------------------------------------------------------");
+
+                Console.WriteLine("Hit enter to close session");
+                Console.ReadLine();
+                Client.Close();
             }
             else
             {
                 Console.WriteLine("ERROR, contact +42 5125123952");
             }
-            Client.Close();
+            Console.WriteLine("Hit enter to close session");
             Console.ReadLine();
+            Client.Close();
         }
 
         /// <summary>
@@ -58,23 +77,73 @@ namespace MiniProject2Client
         {
             Console.WriteLine("Car Rental");
             Console.WriteLine("You have two choice:");
-            Console.WriteLine("Type 1 to give feedback");
-            Console.WriteLine("Type 2    to create a new booking");
+            Console.WriteLine("Type R to give review");
+            Console.WriteLine("Type C to create a new booking");
             var inputCar = Console.ReadLine();
             Console.WriteLine($" [x] your choice were: {inputCar}");
             var responseOption = Client.Call(inputCar);
 
-            if (responseOption == "1")
+            if (responseOption == "R")
             {
                 caseVariable = 1;
-                Console.WriteLine("Du skal nu til lave et review");
-                Console.WriteLine("Hvor man sjerner vil du give servicen? 1-5 :");
-                var inputName = Console.ReadLine();
-
-                var responseFromName = Client.Call(inputName);
+                Console.WriteLine("Create review flow");
             }
-            caseVariable = 2;
-            Console.WriteLine($" [.] Got: '{responseOption}'");
+            else
+            {
+                caseVariable = 2;
+                Console.WriteLine("Create booking flow");
+            }
+        }
+
+        private static void Rating()
+        {
+            Console.WriteLine("Du skal nu til lave et review");
+            Console.WriteLine("Hvor man sjerner vil du give servicen? 1-5 :");
+            var inputRating = "R" + " " + Console.ReadLine();
+            Console.WriteLine($" [x] your choice to give: {inputRating} stars");
+            var responseRating = Client.Call(inputRating);
+
+            Console.WriteLine($" [.] response: '{responseRating}'");
+        }
+
+        private static void Location()
+        {
+            Console.WriteLine("You now have you type your location e.g. kildevej 19. ");
+            var inputLocation = Console.ReadLine();
+            Console.WriteLine($" [x] your location is: {inputLocation}");
+            var responseLocation = Client.Call("R" + " " + inputLocation);
+
+            Console.WriteLine($" [.] Got: '{responseLocation}'");
+        }
+
+        private static void Description()
+        {
+            Console.WriteLine("Please enter a description, and press enter when you're done");
+            var inputDescription = Console.ReadLine();
+            Console.WriteLine($" [x] your description is: {inputDescription}");
+            var responseDescription = Client.Call("R" + " " + inputDescription);
+
+            Console.WriteLine($" [.] Got: '{responseDescription}'");
+        }
+
+        private static void Gender()
+        {
+            Console.WriteLine("Please enter your gender");
+            var inputGender = Console.ReadLine();
+            Console.WriteLine($" [x] your gender is: {inputGender}");
+            var responseGender = Client.Call("R" + " " + inputGender);
+
+            Console.WriteLine($" [.] Got: '{inputGender}'");
+        }
+
+        private static void Age()
+        {
+            Console.WriteLine("Please enter your age");
+            var inputAge = Console.ReadLine();
+            Console.WriteLine($" [x] your age is: {inputAge}");
+            var responseAge = Client.Call("R" + " " + inputAge);
+
+            Console.WriteLine($" [.] Got: '{responseAge}'");
         }
 
         /// <summary>

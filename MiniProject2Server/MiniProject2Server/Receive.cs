@@ -10,6 +10,7 @@ using System.IO;
 using MiniProject2Server.ApiHelper;
 using MiniProject2Server.Microservices;
 using MiniProject2Server.Model;
+using System.Text.RegularExpressions;
 
 namespace MiniProject2Server
 {
@@ -22,12 +23,9 @@ namespace MiniProject2Server
         //private static string logPath = @"C:/Users/Bruger/source/repos/Mini-Project-3-microservices/Log.txt";    // Christoffer
         private static string logPath = "C:/Users/Jonas/source/repos/Mini-Project-3-microservices/Log.txt";        // Jonas
 
-        private static string initialChoice;
-
         static async Task Main(string[] args)
         {
-            //             [MicroService used]
-            //Fetching all cars     
+            //             [MicroService used]                       //   
             Apihelper.InitializeClient();
             Processor processor = new Processor();
             await processor.getBookings();
@@ -58,8 +56,6 @@ namespace MiniProject2Server
                 bool found = false;
 
 
-
-
                 //Message recevied
                 consumer.Received += (model, ea) =>
                 {
@@ -71,49 +67,104 @@ namespace MiniProject2Server
 
                     var message = Encoding.UTF8.GetString(body).ToString();
                     //Console.WriteLine(" [.] Message send from client", message);
+                    string[] opdelt = message.Split(' ');
+                    var identifyer = opdelt[0];
 
                     File.AppendAllText(logPath, TimeStampForLog(" ", message));
                     //write message down into a TXT log file (not made yet) 
 
                     //Choice 1 - Review 
-                    if (message == "1" || initialChoice == "1")
+                    if (identifyer == "R")
                     {
-                        Review review = new Review(); 
-
-                        Console.WriteLine("Feedback section");
-                        initialChoice = "1"; 
-
-                        var responseBytes = Encoding.UTF8.GetBytes("1");
-                        channel.BasicPublish(exchange: "", routingKey: props.ReplyTo,
-                                     basicProperties: replyProps, body: responseBytes);
-                        channel.BasicAck(deliveryTag: ea.DeliveryTag,
-                          multiple: false);
-
                         switch (caseSwitchChoice)
                         {
                             case 1:
-                                Console.WriteLine("Choice case 1 - rating");
-                                File.AppendAllText(logPath, TimeStampForLog("Choice case 1 - rating", message));
+                                Review review = new Review();
 
-                                response = "rating ok";
-                                caseSwitchChoice += 1;
+                                Console.WriteLine("Feedback section");
+                                initialChoice = "1";
+                                File.AppendAllText(logPath, TimeStampForLog("Feedback section = 1", message));
 
+                                var responseBytes = Encoding.UTF8.GetBytes("R");
                                 channel.BasicPublish(exchange: "", routingKey: props.ReplyTo,
-                                     basicProperties: replyProps, body: responseBytes);
+                                             basicProperties: replyProps, body: responseBytes);
                                 channel.BasicAck(deliveryTag: ea.DeliveryTag,
                                   multiple: false);
+
+                                caseSwitchChoice += 1;
                                 break;
                             case 2:
-                                Console.WriteLine("Choice case 2 - location");
-                                File.AppendAllText(logPath, TimeStampForLog("Choice case 1 - location", message));
+                                Console.WriteLine("Choice case 1 - rating");
+                                File.AppendAllText(logPath, TimeStampForLog("Choice case 1 - rating ", message));
 
-                                response = "location ok";
-                                caseSwitchChoice += 1;
+                                    response = "rating ok";
+                                    File.AppendAllText(logPath, TimeStampForLog(response, message));
 
+                                    var responseRating = Encoding.UTF8.GetBytes(response);
+
+                                    channel.BasicPublish(exchange: "", routingKey: props.ReplyTo,
+                                         basicProperties: replyProps, body: responseRating);
+                                    channel.BasicAck(deliveryTag: ea.DeliveryTag,
+                                      multiple: false);
+
+                                    caseSwitchChoice += 1;
+                                break;
+                            case 3:
+                                Console.WriteLine("Choice case 2 - Location");
+                                File.AppendAllText(logPath, TimeStampForLog("Choice case 2 - Location", message));
+
+                                response = "Location registered";
+                                File.AppendAllText(logPath, TimeStampForLog(response, message));
+
+                                var responseLocation = Encoding.UTF8.GetBytes(response);
                                 channel.BasicPublish(exchange: "", routingKey: props.ReplyTo,
-                                     basicProperties: replyProps, body: responseBytes);
+                                     basicProperties: replyProps, body: responseLocation);
                                 channel.BasicAck(deliveryTag: ea.DeliveryTag,
                                   multiple: false);
+
+                                caseSwitchChoice += 1;
+                                break;
+                            case 4:
+                                Console.WriteLine("Choice case 3 - description");
+                                File.AppendAllText(logPath, TimeStampForLog("Choice case 3 - description", message));
+
+                                response = "description registered ok";
+                                File.AppendAllText(logPath, TimeStampForLog(response, message));
+
+                                var respondescription = Encoding.UTF8.GetBytes(response);
+                                channel.BasicPublish(exchange: "", routingKey: props.ReplyTo,
+                                     basicProperties: replyProps, body: respondescription);
+                                channel.BasicAck(deliveryTag: ea.DeliveryTag,
+                                  multiple: false);
+                                caseSwitchChoice += 1;
+                                break;
+                            case 5:
+                                Console.WriteLine("Choice case 4 - gender");
+                                File.AppendAllText(logPath, TimeStampForLog("Choice case 4 - gender", message));
+
+                                response = "gender registered ok";
+                                File.AppendAllText(logPath, TimeStampForLog(response, message));
+
+                                var responseMale = Encoding.UTF8.GetBytes(response);
+                                channel.BasicPublish(exchange: "", routingKey: props.ReplyTo,
+                                     basicProperties: replyProps, body: responseMale);
+                                channel.BasicAck(deliveryTag: ea.DeliveryTag,
+                                  multiple: false);
+                                caseSwitchChoice += 1;
+                                break;
+                            case 6:
+                                Console.WriteLine("Choice case 5 - age");
+                                File.AppendAllText(logPath, TimeStampForLog("Choice case 4 - age", message));
+
+                                response = "Age registered ok";
+                                File.AppendAllText(logPath, TimeStampForLog(response, message));
+
+                                var responseAge = Encoding.UTF8.GetBytes(response);
+                                channel.BasicPublish(exchange: "", routingKey: props.ReplyTo,
+                                     basicProperties: replyProps, body: responseAge);
+                                channel.BasicAck(deliveryTag: ea.DeliveryTag,
+                                  multiple: false);
+                                caseSwitchChoice += 1;
                                 break;
                             default:
                                 Console.WriteLine("Default case");
@@ -142,6 +193,8 @@ namespace MiniProject2Server
                                 break;
                             //Check avaliablityart
                             case 2:
+                                File.AppendAllText(logPath, TimeStampForLog("Feedback section = 2", message));
+
                                 Console.WriteLine("Case 1 - Check avaliablity");
                                 message1 = message;
                                 string statusTest1 = "Case 1 - Check avaliablity";
@@ -328,7 +381,7 @@ namespace MiniProject2Server
                                 //EIP - Aggregator  ------------------------------------------
 
                                 //Saves informations in a TXT file (illustrate database) 
-                                File.AppendAllText(@"C:/Users/Bruger/source/repos/Mini-Project-3-microservices/CompletedRentals.txt", CompletePost(response));
+                                File.AppendAllText(@"C:/Users/Jonas/source/repos/Mini-Project-3-microservices/CompletedRentals.txt", CompletePost(response));
 
                                 var responseBytesCase5 = Encoding.UTF8.GetBytes(response);
                                 channel.BasicPublish(exchange: "", routingKey: props.ReplyTo,
@@ -352,7 +405,7 @@ namespace MiniProject2Server
 
         private static string TimeStampForLog(string casestatus, string message)
         {
-            string response = DateTime.Now + " " + casestatus + ": " + message + Environment.NewLine; ;
+            string response = DateTime.Now + " " + casestatus + "with message: " + message + Environment.NewLine; ;
             return response;
         }
         private static string CompletePost(string information)
