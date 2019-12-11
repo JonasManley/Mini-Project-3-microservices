@@ -61,6 +61,7 @@
     <Compile Include="Model\DataStorage.cs" />
     <Compile Include="Model\Driver.cs" />
     <Compile Include="Microservices\CarService\Processor.cs" />
+    <Compile Include="Model\Review.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Receive.cs" />
   </ItemGroup>
