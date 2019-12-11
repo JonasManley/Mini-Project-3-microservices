@@ -7,7 +7,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MiniProject2Server.Microservices
+namespace MiniProject2Server.Microservices.CarService
 {
     public class Processor
     {
@@ -18,7 +18,7 @@ namespace MiniProject2Server.Microservices
         public async Task getBookings()
         {
             using (HttpResponseMessage responseMessage
-                = await Apihelper.ApiClient.GetAsync("https://sirestservicemirocservices20191210025545.azurewebsites.net/api/values"))
+                = await Apihelper.ApiClient.GetAsync("https://sirestreview20191211094544.azurewebsites.net/api/values"))
             {
                 if (responseMessage.IsSuccessStatusCode)
                 {

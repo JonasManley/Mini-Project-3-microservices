@@ -10,7 +10,7 @@ using System.IO;
 using MiniProject2Server.ApiHelper;
 using MiniProject2Server.Microservices;
 using MiniProject2Server.Model;
-using System.Text.RegularExpressions;
+
 
 namespace MiniProject2Server
 {
@@ -27,7 +27,7 @@ namespace MiniProject2Server
         {
             //             [MicroService used]                       //   
             Apihelper.InitializeClient();
-            Processor processor = new Processor();
+            Microservices.CarService.Processor processor = new Microservices.CarService.Processor();
             await processor.getBookings();
 
 
@@ -56,8 +56,10 @@ namespace MiniProject2Server
                 bool found = false;
 
 
+                Microservices.ReviewService.Processor reviewProcessor = new Microservices.ReviewService.Processor();
+
                 //Message recevied
-                consumer.Received += (model, ea) =>
+                consumer.Received += async (model, ea) =>
                 {
                     string response = null;
                     var body = ea.Body;
@@ -82,7 +84,6 @@ namespace MiniProject2Server
                                 Review review = new Review();
 
                                 Console.WriteLine("Feedback section");
-                                initialChoice = "1";
                                 File.AppendAllText(logPath, TimeStampForLog("Feedback section = 1", message));
 
                                 var responseBytes = Encoding.UTF8.GetBytes("R");
@@ -96,7 +97,9 @@ namespace MiniProject2Server
                             case 2:
                                 Console.WriteLine("Choice case 1 - rating");
                                 File.AppendAllText(logPath, TimeStampForLog("Choice case 1 - rating ", message));
-
+                                string realMessageRating = message.Remove(0, 1);
+                                reviewProcessor.Review.Rating = Convert.ToInt32(realMessageRating);
+                                
                                     response = "rating ok";
                                     File.AppendAllText(logPath, TimeStampForLog(response, message));
 
@@ -112,6 +115,8 @@ namespace MiniProject2Server
                             case 3:
                                 Console.WriteLine("Choice case 2 - Location");
                                 File.AppendAllText(logPath, TimeStampForLog("Choice case 2 - Location", message));
+                                string realMessageLocation = message.Remove(0, 1);
+                                reviewProcessor.Review.Location = realMessageLocation;
 
                                 response = "Location registered";
                                 File.AppendAllText(logPath, TimeStampForLog(response, message));
@@ -127,6 +132,8 @@ namespace MiniProject2Server
                             case 4:
                                 Console.WriteLine("Choice case 3 - description");
                                 File.AppendAllText(logPath, TimeStampForLog("Choice case 3 - description", message));
+                                string realMessagedescription = message.Remove(0, 1);
+                                reviewProcessor.Review.Description = realMessagedescription;
 
                                 response = "description registered ok";
                                 File.AppendAllText(logPath, TimeStampForLog(response, message));
@@ -141,6 +148,8 @@ namespace MiniProject2Server
                             case 5:
                                 Console.WriteLine("Choice case 4 - gender");
                                 File.AppendAllText(logPath, TimeStampForLog("Choice case 4 - gender", message));
+                                string realMessageGender = message.Remove(0, 1);
+                                reviewProcessor.Review.Gender = realMessageGender;
 
                                 response = "gender registered ok";
                                 File.AppendAllText(logPath, TimeStampForLog(response, message));
@@ -155,6 +164,8 @@ namespace MiniProject2Server
                             case 6:
                                 Console.WriteLine("Choice case 5 - age");
                                 File.AppendAllText(logPath, TimeStampForLog("Choice case 4 - age", message));
+                                string realMessageAge = message.Remove(0, 1);
+                                reviewProcessor.Review.Age = Convert.ToInt32(realMessageAge);
 
                                 response = "Age registered ok";
                                 File.AppendAllText(logPath, TimeStampForLog(response, message));
@@ -164,7 +175,9 @@ namespace MiniProject2Server
                                      basicProperties: replyProps, body: responseAge);
                                 channel.BasicAck(deliveryTag: ea.DeliveryTag,
                                   multiple: false);
-                                caseSwitchChoice += 1;
+
+                                await reviewProcessor.PostReview();
+
                                 break;
                             default:
                                 Console.WriteLine("Default case");

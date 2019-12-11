@@ -99,7 +99,7 @@ namespace MiniProject2Client
         {
             Console.WriteLine("Du skal nu til lave et review");
             Console.WriteLine("Hvor man sjerner vil du give servicen? 1-5 :");
-            var inputRating = "R" + " " + Console.ReadLine();
+            var inputRating = "R" + " " + Console.ReadLine(); 
             Console.WriteLine($" [x] your choice to give: {inputRating} stars");
             var responseRating = Client.Call(inputRating);
 

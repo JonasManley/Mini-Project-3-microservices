@@ -39,3 +39,53 @@
 11/12/2019 15:28:29  with message: R 21
 11/12/2019 15:28:29 Choice case 4 - agewith message: R 21
 11/12/2019 15:28:29 Age registered okwith message: R 21
+11/12/2019 21:49:11  with message: R
+11/12/2019 21:49:11 Feedback section = 1with message: R
+11/12/2019 21:49:13  with message: R 3
+11/12/2019 21:49:14 Choice case 1 - rating with message: R 3
+11/12/2019 21:56:22  with message: R 3
+11/12/2019 21:56:22 Feedback section = 1with message: R 3
+11/12/2019 21:56:32  with message: R
+11/12/2019 21:56:32 Choice case 1 - rating with message: R
+11/12/2019 21:57:50  with message: R
+11/12/2019 21:57:50 Feedback section = 1with message: R
+11/12/2019 21:58:00  with message: R
+11/12/2019 21:58:00 Choice case 1 - rating with message: R
+11/12/2019 21:59:18  with message: R
+11/12/2019 21:59:37  with message: R
+11/12/2019 22:00:05 Feedback section = 1with message: R
+11/12/2019 22:00:28  with message: R
+11/12/2019 22:07:37  with message: R
+11/12/2019 22:07:37 Feedback section = 1with message: R
+11/12/2019 22:07:39  with message: R 4
+11/12/2019 22:07:39 Choice case 1 - rating with message: R 4
+11/12/2019 22:07:39 rating okwith message: R 4
+11/12/2019 22:07:49  with message: R kildevej 19
+11/12/2019 22:07:49 Choice case 2 - Locationwith message: R kildevej 19
+11/12/2019 22:07:49 Location registeredwith message: R kildevej 19
+11/12/2019 22:07:54  with message: R ghjaskdgjoadbishjnsakVJHISDJBK
+11/12/2019 22:07:54 Choice case 3 - descriptionwith message: R ghjaskdgjoadbishjnsakVJHISDJBK
+11/12/2019 22:07:54 description registered okwith message: R ghjaskdgjoadbishjnsakVJHISDJBK
+11/12/2019 22:07:58  with message: R MALE
+11/12/2019 22:07:58 Choice case 4 - genderwith message: R MALE
+11/12/2019 22:07:58 gender registered okwith message: R MALE
+11/12/2019 22:08:00  with message: R 24
+11/12/2019 22:08:00 Choice case 4 - agewith message: R 24
+11/12/2019 22:08:00 Age registered okwith message: R 24
+11/12/2019 22:10:51  with message: R
+11/12/2019 22:10:51 Feedback section = 1with message: R
+11/12/2019 22:10:52  with message: R 3
+11/12/2019 22:10:52 Choice case 1 - rating with message: R 3
+11/12/2019 22:10:52 rating okwith message: R 3
+11/12/2019 22:11:03  with message: R dette er en test fra applicationen af
+11/12/2019 22:11:03 Choice case 2 - Locationwith message: R dette er en test fra applicationen af
+11/12/2019 22:11:03 Location registeredwith message: R dette er en test fra applicationen af
+11/12/2019 22:11:14  with message: R Dette er stadig en test afsgasga
+11/12/2019 22:11:14 Choice case 3 - descriptionwith message: R Dette er stadig en test afsgasga
+11/12/2019 22:11:14 description registered okwith message: R Dette er stadig en test afsgasga
+11/12/2019 22:11:16  with message: R male
+11/12/2019 22:11:16 Choice case 4 - genderwith message: R male
+11/12/2019 22:11:16 gender registered okwith message: R male
+11/12/2019 22:11:18  with message: R 23
+11/12/2019 22:11:18 Choice case 4 - agewith message: R 23
+11/12/2019 22:11:18 Age registered okwith message: R 23
