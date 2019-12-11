@@ -8,3 +8,6 @@ MiniProject2Server/.vs/MiniProject2Server/v16/Server/sqlite3/storage.ide
 *.exe
 MiniProject2Server/.vs/MiniProject2Server/v16/.suo
 *.exe
+*.ide-shm
+*.exe
+*.cache

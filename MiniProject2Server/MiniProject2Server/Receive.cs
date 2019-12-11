@@ -125,8 +125,23 @@ namespace MiniProject2Server
                         //Choice 2 - create booking
                         switch (caseSwitch)
                         {
-                            //Check avaliablity
                             case 1:
+                                Console.WriteLine("Case 0 - flow chosen");
+                                string statusTest0 = "Case 0 - flow chosen";
+                                File.AppendAllText(logPath, TimeStampForLog(statusTest0, message));
+                                response = "2";
+                                var responseBytesChoice = Encoding.UTF8.GetBytes(response);
+
+                                //Send a response back ---------------
+                                channel.BasicPublish(exchange: "", routingKey: props.ReplyTo,
+                                  basicProperties: replyProps, body: responseBytesChoice);
+                                channel.BasicAck(deliveryTag: ea.DeliveryTag,
+                                  multiple: false);
+
+                                caseSwitch += 1;
+                                break;
+                            //Check avaliablityart
+                            case 2:
                                 Console.WriteLine("Case 1 - Check avaliablity");
                                 message1 = message;
                                 string statusTest1 = "Case 1 - Check avaliablity";
@@ -187,7 +202,7 @@ namespace MiniProject2Server
                                 }
                                 break;
                             //Choose color 
-                            case 2:
+                            case 3:
                                 Console.WriteLine("case 2 - choose color");
                                 message2 = message;
                                 string statusTest2 = "case 2 - choose color";
@@ -225,7 +240,7 @@ namespace MiniProject2Server
                                     caseSwitch += 1;
                                 }
                                 break;
-                            case 3:
+                            case 4:
                                 Console.WriteLine("case 3 - choose car");
                                 string statusTest3 = "case 3 - choose car";
                                 File.AppendAllText(logPath, TimeStampForLog(statusTest3, message));
@@ -266,7 +281,7 @@ namespace MiniProject2Server
                                   multiple: false);
 
                                 break;
-                            case 4:
+                            case 5:
                                 string statusTest4 = "case 4 - selecet car";
                                 Console.WriteLine(statusTest4);
                                 File.AppendAllText(logPath, TimeStampForLog(statusTest4, message));
@@ -291,7 +306,7 @@ namespace MiniProject2Server
                                 channel.BasicAck(deliveryTag: ea.DeliveryTag,
                                   multiple: false);
                                 break;
-                            case 5:
+                            case 6:
                                 string statusTest5 = "case 5 - create booking";
                                 Console.WriteLine(statusTest5);
                                 File.AppendAllText(logPath, TimeStampForLog(statusTest5, message));

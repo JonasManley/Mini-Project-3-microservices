@@ -23,7 +23,7 @@ namespace MiniProject2Client
             {
 
             }
-            else
+            else if(caseVariable == 2)
             {
                 AvailableCars();
                 Console.WriteLine("---------------------------------------------------------------------------------");
@@ -43,6 +43,10 @@ namespace MiniProject2Client
                 var responseNameAndLicense = Client.Call(inputNameAndLicense);
                 Console.WriteLine("Agregation: " + responseNameAndLicense);
             }
+            else
+            {
+                Console.WriteLine("ERROR, contact +42 5125123952");
+            }
             Client.Close();
             Console.ReadLine();
         }
@@ -60,19 +64,16 @@ namespace MiniProject2Client
             Console.WriteLine($" [x] your choice were: {inputCar}");
             var responseOption = Client.Call(inputCar);
 
-            if (responseOption != "1")
+            if (responseOption == "1")
             {
-                OptionsCreateOrFeedback();
-            }
-            else
-            {
-
+                caseVariable = 1;
                 Console.WriteLine("Du skal nu til lave et review");
                 Console.WriteLine("Hvor man sjerner vil du give servicen? 1-5 :");
                 var inputName = Console.ReadLine();
 
                 var responseFromName = Client.Call(inputName);
             }
+            caseVariable = 2;
             Console.WriteLine($" [.] Got: '{responseOption}'");
         }
 
