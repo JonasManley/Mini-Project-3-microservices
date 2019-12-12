@@ -82,3 +82,7 @@ C:\Users\Jonas\source\repos\Mini-Project-3-microservices\MiniProject2Server\Mini
 C:\Users\Jonas\source\repos\Mini-Project-3-microservices\MiniProject2Server\MiniProject2Server\bin\Debug\Flurl.Http.dll
 C:\Users\Jonas\source\repos\Mini-Project-3-microservices\MiniProject2Server\MiniProject2Server\bin\Debug\Flurl.xml
 C:\Users\Jonas\source\repos\Mini-Project-3-microservices\MiniProject2Server\MiniProject2Server\bin\Debug\Flurl.Http.xml
+C:\Users\Bruger\source\repos\Mini-Project-3-microservices\MiniProject2Server\MiniProject2Server\bin\Debug\Flurl.dll
+C:\Users\Bruger\source\repos\Mini-Project-3-microservices\MiniProject2Server\MiniProject2Server\bin\Debug\Flurl.Http.dll
+C:\Users\Bruger\source\repos\Mini-Project-3-microservices\MiniProject2Server\MiniProject2Server\bin\Debug\Flurl.xml
+C:\Users\Bruger\source\repos\Mini-Project-3-microservices\MiniProject2Server\MiniProject2Server\bin\Debug\Flurl.Http.xml

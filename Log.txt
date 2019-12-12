@@ -89,3 +89,39 @@
 11/12/2019 22:11:18  with message: R 23
 11/12/2019 22:11:18 Choice case 4 - agewith message: R 23
 11/12/2019 22:11:18 Age registered okwith message: R 23
+12-12-2019 01:07:06  with message: R
+12-12-2019 01:07:06 Feedback section = 1with message: R
+12-12-2019 01:07:12  with message: R 5
+12-12-2019 01:07:12 Choice case 1 - rating with message: R 5
+12-12-2019 01:07:12 rating okwith message: R 5
+12-12-2019 01:07:23  with message: R Skovbakken 16
+12-12-2019 01:07:23 Choice case 2 - Locationwith message: R Skovbakken 16
+12-12-2019 01:07:23 Location registeredwith message: R Skovbakken 16
+12-12-2019 01:07:43  with message: R det var en fornæjelse at booke her
+12-12-2019 01:07:43 Choice case 3 - descriptionwith message: R det var en fornæjelse at booke her
+12-12-2019 01:07:43 description registered okwith message: R det var en fornæjelse at booke her
+12-12-2019 01:07:48  with message: R shemale
+12-12-2019 01:07:48 Choice case 4 - genderwith message: R shemale
+12-12-2019 01:07:48 gender registered okwith message: R shemale
+12-12-2019 01:07:53  with message: R 36
+12-12-2019 01:07:53 Choice case 4 - agewith message: R 36
+12-12-2019 01:07:53 Age registered okwith message: R 36
+12-12-2019 01:09:33  with message: C
+12-12-2019 01:09:33 Case 0 - flow chosenwith message: C
+12-12-2019 01:09:54  with message: Audi 20/11/2019
+12-12-2019 01:09:54 Feedback section = 2with message: Audi 20/11/2019
+12-12-2019 01:09:54 Case 1 - Check avaliablitywith message: Audi 20/11/2019
+12-12-2019 01:09:54 Case 1 - Check avaliablitywith message: bil blev fundet
+12-12-2019 01:09:54  with message:  
+12-12-2019 01:09:54 case 2 - choose colorwith message:  
+12-12-2019 01:09:54 case 2 - choose colorwith message:  red blue black green
+12-12-2019 01:10:00  with message: blue
+12-12-2019 01:10:00 case 3 - choose carwith message: blue
+12-12-2019 01:10:00 case 3 - choose carwith message: Audi blue 15000 20/11/2019 -
+12-12-2019 01:10:07  with message: 1
+12-12-2019 01:10:07 case 4 - selecet carwith message: 1
+12-12-2019 01:10:07 case 4 - selecet carwith message: selected CAR: Audi blue 15000 20/11/2019 
+12-12-2019 01:10:07 case 4 - selecet carwith message: 1
+12-12-2019 01:10:19  with message: Christoffer Dunk Ring 23120938
+12-12-2019 01:10:19 case 5 - create bookingwith message: Christoffer Dunk Ring 23120938
+12-12-2019 01:10:19 case 5 - create bookingwith message: Audi 20/11/2019 Christoffer Dunk Ring 23120938

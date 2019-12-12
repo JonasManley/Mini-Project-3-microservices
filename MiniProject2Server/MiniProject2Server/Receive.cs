@@ -20,8 +20,8 @@ namespace MiniProject2Server
         private static string message1;  // Type and Date
         private static string message2;  // Color
         private static string message3;  // Driver name and license  
-        //private static string logPath = @"C:/Users/Bruger/source/repos/Mini-Project-3-microservices/Log.txt";    // Christoffer
-        private static string logPath = "C:/Users/Jonas/source/repos/Mini-Project-3-microservices/Log.txt";        // Jonas
+        private static string logPath = @"C:/Users/Bruger/source/repos/Mini-Project-3-microservices/Log.txt";    // Christoffer
+        //private static string logPath = "C:/Users/Jonas/source/repos/Mini-Project-3-microservices/Log.txt";        // Jonas
 
         static async Task Main(string[] args)
         {
@@ -394,7 +394,8 @@ namespace MiniProject2Server
                                 //EIP - Aggregator  ------------------------------------------
 
                                 //Saves informations in a TXT file (illustrate database) 
-                                File.AppendAllText(@"C:/Users/Jonas/source/repos/Mini-Project-3-microservices/CompletedRentals.txt", CompletePost(response));
+                                //File.AppendAllText(@"C:/Users/Jonas/source/repos/Mini-Project-3-microservices/CompletedRentals.txt", CompletePost(response));  //Jonas
+                                File.AppendAllText(@"C:/Users/Bruger/source/repos/Mini-Project-3-microservices/CompletedRentals.txt", CompletePost(response)); //Christoffer
 
                                 var responseBytesCase5 = Encoding.UTF8.GetBytes(response);
                                 channel.BasicPublish(exchange: "", routingKey: props.ReplyTo,
