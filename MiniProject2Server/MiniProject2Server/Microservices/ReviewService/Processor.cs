@@ -17,7 +17,7 @@ namespace MiniProject2Server.Microservices.ReviewService
         public async Task PostReview()
         {
             using (HttpResponseMessage responseMessage
-                = await Apihelper.ApiClient.PostAsJsonAsync("https://sirestreview20191212123916.azurewebsites.net/api/values", review)){}
+                = await Apihelper.ApiClient.PostAsJsonAsync("https://sirestreviewfinal.azurewebsites.net/api/values", review)){}
         }
 
         public Review Review

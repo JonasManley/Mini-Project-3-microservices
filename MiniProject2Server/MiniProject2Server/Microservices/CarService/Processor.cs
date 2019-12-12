@@ -18,7 +18,7 @@ namespace MiniProject2Server.Microservices.CarService
         public async Task getBookings()
         {
             using (HttpResponseMessage responseMessage
-                = await Apihelper.ApiClient.GetAsync("https://sirestservicemirocservices20191212125505.azurewebsites.net/api/values"))
+                = await Apihelper.ApiClient.GetAsync("https://sirestservicemirocservicesfinal.azurewebsites.net/api/values"))
             {
                 if (responseMessage.IsSuccessStatusCode)
                 {
