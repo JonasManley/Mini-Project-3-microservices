@@ -1,183 +1,40 @@
-﻿12/12/2019 03:06:46  with message: R
-12/12/2019 03:06:46 Feedback section = 1with message: R
-12/12/2019 03:06:49  with message: R 3
-12/12/2019 03:06:49 Choice case 1 - rating with message: R 3
-12/12/2019 03:06:49 rating okwith message: R 3
-12/12/2019 03:07:00  with message: R lærkevej 2 4040 skovby
-12/12/2019 03:07:00 Choice case 2 - Locationwith message: R lærkevej 2 4040 skovby
-12/12/2019 03:07:00 Location registeredwith message: R lærkevej 2 4040 skovby
-12/12/2019 03:07:31  with message: R det var faktisk og betjening 
-12/12/2019 03:07:31 Choice case 3 - descriptionwith message: R det var faktisk og betjening 
-12/12/2019 03:07:31 description registered okwith message: R det var faktisk og betjening 
-12/12/2019 03:07:34  with message: R male
-12/12/2019 03:07:34 Choice case 4 - genderwith message: R male
-12/12/2019 03:07:34 gender registered okwith message: R male
-12/12/2019 03:07:37  with message: R 23
-12/12/2019 03:07:37 Choice case 4 - agewith message: R 23
-12/12/2019 03:07:37 Age registered okwith message: R 23
-12/12/2019 03:07:53  with message: C
-12/12/2019 03:07:53 Case 0 - flow chosenwith message: C
-12/12/2019 03:08:01  with message: Audi 20/11/2019
-12/12/2019 03:08:01 Feedback section = 2with message: Audi 20/11/2019
-12/12/2019 03:08:01 Case 1 - Check avaliablitywith message: Audi 20/11/2019
-12/12/2019 03:08:01 Case 1 - Check avaliablitywith message: bil blev fundet
-12/12/2019 03:08:01  with message:  
-12/12/2019 03:08:01 case 2 - choose colorwith message:  
-12/12/2019 03:08:01 case 2 - choose colorwith message:  red blue black green
-12/12/2019 03:08:04  with message: red
-12/12/2019 03:08:04 case 3 - choose carwith message: red
-12/12/2019 03:08:04 case 3 - choose carwith message: Audi red 35000 20/11/2019 -Audi red 45000 20/11/2019 -
-12/12/2019 03:08:06  with message: 2
-12/12/2019 03:08:06 case 4 - selecet carwith message: 2
-12/12/2019 03:08:06 case 4 - selecet carwith message: selected CAR: Audi red 45000 20/11/2019 
-12/12/2019 03:08:06 case 4 - selecet carwith message: 2
-12/12/2019 03:08:26  with message: Ber bo jens 21412312412412
-12/12/2019 03:08:26 case 5 - create bookingwith message: Ber bo jens 21412312412412
-12/12/2019 03:08:26 case 5 - create bookingwith message: Audi 20/11/2019 Ber bo jens 21412312412412
-12/12/2019 03:08:43  with message: R
-12/12/2019 03:08:43 Choice case 4 - agewith message: R
-29-12-2019 16:23:31  with message: C
-29-12-2019 16:23:31 Case 0 - flow chosenwith message: C
-08-01-2020 15:54:06  with message: R
-08-01-2020 15:54:06 Feedback section = 1with message: R
-08-01-2020 15:54:13  with message: R 5
-08-01-2020 15:54:13 Choice case 1 - rating with message: R 5
-08-01-2020 15:54:13 rating okwith message: R 5
-08-01-2020 15:54:23  with message: R kildevej 19, 4000 roskilde
-08-01-2020 15:54:23 Choice case 2 - Locationwith message: R kildevej 19, 4000 roskilde
-08-01-2020 15:54:23 Location registeredwith message: R kildevej 19, 4000 roskilde
-08-01-2020 15:54:37  with message: R det var en skide godt service, den vil jeg gerne prøve igen
-08-01-2020 15:54:37 Choice case 3 - descriptionwith message: R det var en skide godt service, den vil jeg gerne prøve igen
-08-01-2020 15:54:37 description registered okwith message: R det var en skide godt service, den vil jeg gerne prøve igen
-08-01-2020 15:54:45  with message: R male
-08-01-2020 15:54:45 Choice case 4 - genderwith message: R male
-08-01-2020 15:54:45 gender registered okwith message: R male
-08-01-2020 15:54:48  with message: R 23
-08-01-2020 15:54:48 Choice case 4 - agewith message: R 23
-08-01-2020 15:54:48 Age registered okwith message: R 23
-08-01-2020 15:59:22  with message: R
-08-01-2020 15:59:22 Feedback section = 1with message: R
-08-01-2020 15:59:27  with message: R 5
-08-01-2020 15:59:27 Choice case 1 - rating with message: R 5
-08-01-2020 15:59:27 rating okwith message: R 5
-08-01-2020 15:59:30  with message: R kildevej
-08-01-2020 15:59:30 Choice case 2 - Locationwith message: R kildevej
-08-01-2020 15:59:30 Location registeredwith message: R kildevej
-08-01-2020 15:59:34  with message: R gsgsdagasdfnfss SDGAS
-08-01-2020 15:59:34 Choice case 3 - descriptionwith message: R gsgsdagasdfnfss SDGAS
-08-01-2020 15:59:34 description registered okwith message: R gsgsdagasdfnfss SDGAS
-08-01-2020 15:59:38  with message: R male
-08-01-2020 15:59:38 Choice case 4 - genderwith message: R male
-08-01-2020 15:59:38 gender registered okwith message: R male
-08-01-2020 15:59:39  with message: R 23
-08-01-2020 15:59:39 Choice case 4 - agewith message: R 23
-08-01-2020 15:59:39 Age registered okwith message: R 23
-08-01-2020 16:01:26  with message: R
-08-01-2020 16:01:26 Feedback section = 1with message: R
-08-01-2020 16:01:28  with message: R 5
-08-01-2020 16:01:28 Choice case 1 - rating with message: R 5
-08-01-2020 16:01:28 rating okwith message: R 5
-08-01-2020 16:01:30  with message: R kildevej
-08-01-2020 16:01:30 Choice case 2 - Locationwith message: R kildevej
-08-01-2020 16:01:30 Location registeredwith message: R kildevej
-08-01-2020 16:01:33  with message: R agfsdf onanfs njsd nokas d
-08-01-2020 16:01:33 Choice case 3 - descriptionwith message: R agfsdf onanfs njsd nokas d
-08-01-2020 16:01:33 description registered okwith message: R agfsdf onanfs njsd nokas d
-08-01-2020 16:01:35  with message: R male
-08-01-2020 16:01:35 Choice case 4 - genderwith message: R male
-08-01-2020 16:01:35 gender registered okwith message: R male
-08-01-2020 16:01:36  with message: R 23
-08-01-2020 16:01:36 Choice case 4 - agewith message: R 23
-08-01-2020 16:01:36 Age registered okwith message: R 23
-09-01-2020 09:32:35  with message: R
-09-01-2020 09:32:35 Feedback section = 1with message: R
-09-01-2020 09:32:37  with message: R 5
-09-01-2020 09:32:37 Choice case 1 - rating with message: R 5
-09-01-2020 09:32:37 rating okwith message: R 5
-09-01-2020 09:32:41  with message: R kildevej 21
-09-01-2020 09:32:41 Choice case 2 - Locationwith message: R kildevej 21
-09-01-2020 09:32:41 Location registeredwith message: R kildevej 21
-09-01-2020 09:32:44  with message: R fgas ag sdh sa afh 
-09-01-2020 09:32:44 Choice case 3 - descriptionwith message: R fgas ag sdh sa afh 
-09-01-2020 09:32:44 description registered okwith message: R fgas ag sdh sa afh 
-09-01-2020 09:32:46  with message: R male
-09-01-2020 09:32:46 Choice case 4 - genderwith message: R male
-09-01-2020 09:32:46 gender registered okwith message: R male
-09-01-2020 09:32:48  with message: R 23
-09-01-2020 09:32:48 Choice case 4 - agewith message: R 23
-09-01-2020 09:32:48 Age registered okwith message: R 23
-09-01-2020 09:37:33  with message: R
-09-01-2020 09:37:33 Choice case 4 - agewith message: R
-09-01-2020 09:40:20  with message: R
-09-01-2020 09:40:20 Feedback section = 1with message: R
-09-01-2020 09:40:36  with message: R
-09-01-2020 09:40:36 Feedback section = 1with message: R
-09-01-2020 09:40:37  with message: R 5
-09-01-2020 09:40:37 Feedback section = 1with message: R 5
-09-01-2020 09:40:42  with message: R kildevej
-09-01-2020 09:40:42 Feedback section = 1with message: R kildevej
-09-01-2020 09:41:22  with message: R
-09-01-2020 09:41:22 Feedback section = 1with message: R
-09-01-2020 09:41:25  with message: R 5
-09-01-2020 09:41:25 Choice case 1 - rating with message: R 5
-09-01-2020 09:41:25 rating okwith message: R 5
-09-01-2020 09:41:34  with message: R kildevejefa sa
-09-01-2020 09:41:34 Choice case 2 - Locationwith message: R kildevejefa sa
-09-01-2020 09:41:34 Location registeredwith message: R kildevejefa sa
-09-01-2020 09:41:37  with message: R da ga sdg aspgas d
-09-01-2020 09:41:37 Choice case 3 - descriptionwith message: R da ga sdg aspgas d
-09-01-2020 09:41:37 description registered okwith message: R da ga sdg aspgas d
-09-01-2020 09:41:38  with message: R male
-09-01-2020 09:41:38 Choice case 4 - genderwith message: R male
-09-01-2020 09:41:38 gender registered okwith message: R male
-09-01-2020 09:41:39  with message: R 23
-09-01-2020 09:41:39 Choice case 4 - agewith message: R 23
-09-01-2020 09:41:39 Age registered okwith message: R 23
-09-01-2020 09:42:26  with message: R
-09-01-2020 09:42:26 Feedback section = 1with message: R
-09-01-2020 09:42:29  with message: R 5
-09-01-2020 09:42:29 Choice case 1 - rating with message: R 5
-09-01-2020 09:42:29 rating okwith message: R 5
-09-01-2020 09:42:35  with message: R kldevej 12
-09-01-2020 09:42:35 Choice case 2 - Locationwith message: R kldevej 12
-09-01-2020 09:42:35 Location registeredwith message: R kldevej 12
-09-01-2020 09:42:37  with message: R dasgk g ajgas
-09-01-2020 09:42:37 Choice case 3 - descriptionwith message: R dasgk g ajgas
-09-01-2020 09:42:37 description registered okwith message: R dasgk g ajgas
-09-01-2020 09:42:38  with message: R male
-09-01-2020 09:42:38 Choice case 4 - genderwith message: R male
-09-01-2020 09:42:38 gender registered okwith message: R male
-09-01-2020 09:42:40  with message: R 23
-09-01-2020 09:42:40 Choice case 4 - agewith message: R 23
-09-01-2020 09:42:40 Age registered okwith message: R 23
-09-01-2020 09:42:46  with message: R
-09-01-2020 09:42:46 Feedback section = 1with message: R
-09-01-2020 09:42:50  with message: R 5
-09-01-2020 09:42:50 Choice case 1 - rating with message: R 5
-09-01-2020 09:42:50 rating okwith message: R 5
-09-01-2020 09:42:52  with message: R kialds das
-09-01-2020 09:42:52 Choice case 2 - Locationwith message: R kialds das
-09-01-2020 09:42:52 Location registeredwith message: R kialds das
-09-01-2020 09:42:55  with message: R g sakhg asfh nosdf ldfkhs jsd
-09-01-2020 09:42:55 Choice case 3 - descriptionwith message: R g sakhg asfh nosdf ldfkhs jsd
-09-01-2020 09:42:55 description registered okwith message: R g sakhg asfh nosdf ldfkhs jsd
-09-01-2020 09:42:56  with message: R male
-09-01-2020 09:42:56 Choice case 4 - genderwith message: R male
-09-01-2020 09:42:56 gender registered okwith message: R male
-09-01-2020 09:42:58  with message: R 23
-09-01-2020 09:42:58 Choice case 4 - agewith message: R 23
-09-01-2020 09:42:58 Age registered okwith message: R 23
-09-01-2020 09:43:02  with message: C
-09-01-2020 09:43:02 Case 0 - flow chosenwith message: C
-09-01-2020 09:43:13  with message: audi 20/12/2019
-09-01-2020 09:43:13 Feedback section = 2with message: audi 20/12/2019
-09-01-2020 09:43:13 Case 1 - Check avaliablitywith message: audi 20/12/2019
-09-01-2020 09:43:13 Case 1 - Check avaliablitywith message: bil blev ikke fundet
-09-01-2020 09:43:28  with message: Audi 20/12/2019
-09-01-2020 09:43:28 Feedback section = 2with message: Audi 20/12/2019
-09-01-2020 09:43:29 Case 1 - Check avaliablitywith message: Audi 20/12/2019
-09-01-2020 09:43:29 Case 1 - Check avaliablitywith message: bil blev ikke fundet
-09-01-2020 09:43:36  with message: Audi 22/12/2019
-09-01-2020 09:43:36 Feedback section = 2with message: Audi 22/12/2019
-09-01-2020 09:43:36 Case 1 - Check avaliablitywith message: Audi 22/12/2019
-09-01-2020 09:43:36 Case 1 - Check avaliablitywith message: bil blev ikke fundet
+﻿----------------------------Flow start----------------------------
+09-01-2020 10:31:14    -    Feedback section   -    with message: R
+09-01-2020 10:31:15    -        -    with message: R 5
+09-01-2020 10:31:15    -    Choice case 1 - rating   -    with message: R 5
+09-01-2020 10:31:15    -    rating ok   -    with message: R 5
+09-01-2020 10:31:20    -        -    with message: R kildevej 12
+09-01-2020 10:31:20    -    Choice case 2 - Location   -    with message: R kildevej 12
+09-01-2020 10:31:20    -    Location registered   -    with message: R kildevej 12
+09-01-2020 10:31:28    -        -    with message: R that was a very nice service
+09-01-2020 10:31:28    -    Choice case 3 - description   -    with message: R that was a very nice service
+09-01-2020 10:31:28    -    description registered ok   -    with message: R that was a very nice service
+09-01-2020 10:31:29    -        -    with message: R male
+09-01-2020 10:31:29    -    Choice case 4 - gender   -    with message: R male
+09-01-2020 10:31:29    -    gender registered ok   -    with message: R male
+09-01-2020 10:31:31    -        -    with message: R 23
+09-01-2020 10:31:31    -    Choice case 5 - age   -    with message: R 23
+09-01-2020 10:31:31    -    Age registered ok   -    with message: R 23
+----------------------------Flow end----------------------------
+09-01-2020 10:32:27    -        -    with message: C
+----------------------------Flow start----------------------------
+09-01-2020 10:32:27    -    Case 0 - flow chosen   -    with message: C
+09-01-2020 10:32:38    -        -    with message: Audi 20/11/2019
+09-01-2020 10:32:38    -    Feedback section = 2   -    with message: Audi 20/11/2019
+09-01-2020 10:32:38    -    Case 1 - Check avaliablity   -    with message: Audi 20/11/2019
+09-01-2020 10:32:38    -    Case 1 - Check avaliablity   -    with message: bil blev fundet
+09-01-2020 10:32:38    -        -    with message:  
+09-01-2020 10:32:38    -    case 2 - choose color   -    with message:  
+09-01-2020 10:32:38    -    case 2 - choose color   -    with message:  red blue black green
+09-01-2020 10:32:40    -        -    with message: red
+09-01-2020 10:32:40    -    case 3 - choose car   -    with message: red
+09-01-2020 10:32:40    -    case 3 - choose car   -    with message: Audi red 35000 20/11/2019 -Audi red 45000 20/11/2019 -
+09-01-2020 10:32:42    -        -    with message: 2
+09-01-2020 10:32:42    -    case 4 - selecet car   -    with message: 2
+09-01-2020 10:32:42    -    case 4 - selecet car   -    with message: selected CAR: Audi red 45000 20/11/2019 
+09-01-2020 10:32:42    -    case 4 - selecet car   -    with message: 2
+09-01-2020 10:32:50    -        -    with message: jonas manley pedersen 151258572
+09-01-2020 10:32:50    -    case 5 - create booking   -    with message: jonas manley pedersen 151258572
+09-01-2020 10:32:50    -    case 5 - create booking   -    with message: Audi 20/11/2019 jonas manley pedersen 151258572
+09-01-2020 10:32:50    -    section2_6   -    with message: Booking has been created
+----------------------------Flow end----------------------------
