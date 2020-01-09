@@ -21,7 +21,9 @@ namespace MiniProject2Server
         private static string message2;  // Color
         private static string message3;  // Driver name and license  
         //private static string logPath = @"C:/Users/Bruger/source/repos/Mini-Project-3-microservices/Log.txt";    // Christoffer
-        private static string logPath = "C:/Users/Jonas/source/repos/Mini-Project-3-microservices/Log.txt";        // Jonas
+        //private static string logPath = "C:/Users/Jonas/source/repos/Mini-Project-3-microservices/Log.txt";      // Jonas mac 
+        private static string logPath = "C:/Users/Bruger/Documents/GitHub/Mini-Project-3-microservices/Log.txt";   // Jonas
+        
 
         static async Task Main(string[] args)
         {
@@ -177,6 +179,13 @@ namespace MiniProject2Server
                                   multiple: false);
 
                                 await reviewProcessor.PostReview();
+
+                            //reset
+                                caseSwitch = 1;
+                                caseSwitchChoice = 1;
+                                selectedCar = null;
+                                found = false;
+                                identifyer = " ";
 
                                 break;
                             default:
@@ -394,7 +403,8 @@ namespace MiniProject2Server
                                 //EIP - Aggregator  ------------------------------------------
 
                                 //Saves informations in a TXT file (illustrate database) 
-                                File.AppendAllText(@"C:/Users/Jonas/source/repos/Mini-Project-3-microservices/CompletedRentals.txt", CompletePost(response));  //Jonas
+                                File.AppendAllText(@"C:/Users/Bruger/Documents/GitHub/Mini-Project-3-microservices/CompletedRentals.txt", CompletePost(response));  //Jonas ma
+                                //File.AppendAllText(@"C:/Users/Jonas/source/repos/Mini-Project-3-microservices/CompletedRentals.txt", CompletePost(response));  //Jonas mac
                                 //File.AppendAllText(@"C:/Users/Bruger/source/repos/Mini-Project-3-microservices/CompletedRentals.txt", CompletePost(response)); //Christoffer
 
                                 var responseBytesCase5 = Encoding.UTF8.GetBytes(response);
@@ -403,6 +413,13 @@ namespace MiniProject2Server
                                 channel.BasicAck(deliveryTag: ea.DeliveryTag,
                                   multiple: false);
 
+
+                                //reset
+                                caseSwitch = 1;
+                                caseSwitchChoice = 1;
+                                selectedCar = null;
+                                found = false;
+                                identifyer = " ";
 
                                 break;
                             default:

@@ -42,3 +42,14 @@ C:\Users\Jonas\Documents\GitHub\Mini-Project-3-microservices\MiniProject2Client\
 C:\Users\Jonas\Documents\GitHub\Mini-Project-3-microservices\MiniProject2Client\MiniProject2Client\obj\Debug\MiniProject2Client.csproj.CopyComplete
 C:\Users\Jonas\Documents\GitHub\Mini-Project-3-microservices\MiniProject2Client\MiniProject2Client\obj\Debug\MiniProject2Client.exe
 C:\Users\Jonas\Documents\GitHub\Mini-Project-3-microservices\MiniProject2Client\MiniProject2Client\obj\Debug\MiniProject2Client.pdb
+C:\Users\Bruger\Documents\GitHub\Mini-Project-3-microservices\MiniProject2Client\MiniProject2Client\bin\Debug\MiniProject2Client.exe.config
+C:\Users\Bruger\Documents\GitHub\Mini-Project-3-microservices\MiniProject2Client\MiniProject2Client\bin\Debug\MiniProject2Client.exe
+C:\Users\Bruger\Documents\GitHub\Mini-Project-3-microservices\MiniProject2Client\MiniProject2Client\bin\Debug\MiniProject2Client.pdb
+C:\Users\Bruger\Documents\GitHub\Mini-Project-3-microservices\MiniProject2Client\MiniProject2Client\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\Users\Bruger\Documents\GitHub\Mini-Project-3-microservices\MiniProject2Client\MiniProject2Client\bin\Debug\RabbitMQ.Client.dll
+C:\Users\Bruger\Documents\GitHub\Mini-Project-3-microservices\MiniProject2Client\MiniProject2Client\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+C:\Users\Bruger\Documents\GitHub\Mini-Project-3-microservices\MiniProject2Client\MiniProject2Client\bin\Debug\RabbitMQ.Client.xml
+C:\Users\Bruger\Documents\GitHub\Mini-Project-3-microservices\MiniProject2Client\MiniProject2Client\obj\Debug\MiniProject2Client.csprojAssemblyReference.cache
+C:\Users\Bruger\Documents\GitHub\Mini-Project-3-microservices\MiniProject2Client\MiniProject2Client\obj\Debug\MiniProject2Client.csproj.CopyComplete
+C:\Users\Bruger\Documents\GitHub\Mini-Project-3-microservices\MiniProject2Client\MiniProject2Client\obj\Debug\MiniProject2Client.exe
+C:\Users\Bruger\Documents\GitHub\Mini-Project-3-microservices\MiniProject2Client\MiniProject2Client\obj\Debug\MiniProject2Client.pdb

@@ -14,60 +14,61 @@ namespace MiniProject2Client
 
         static void Main(string[] args)
         {
-           
-
-            OptionsCreateOrFeedback();
-            Console.WriteLine("---------------------------------------------------------------------------------");
-
-            if(caseVariable == 1)
+            while (true)
             {
-                Rating();
+                OptionsCreateOrFeedback();
                 Console.WriteLine("---------------------------------------------------------------------------------");
-                Location();
-                Console.WriteLine("---------------------------------------------------------------------------------");
-                Description();
-                Console.WriteLine("---------------------------------------------------------------------------------");
-                Gender();
-                Console.WriteLine("---------------------------------------------------------------------------------");
-                Age();
-                Console.WriteLine("---------------------------------------------------------------------------------");
+                if (caseVariable == 1)
+                {
+                    Rating();
+                    Console.WriteLine("---------------------------------------------------------------------------------");
+                    Location();
+                    Console.WriteLine("---------------------------------------------------------------------------------");
+                    Description();
+                    Console.WriteLine("---------------------------------------------------------------------------------");
+                    Gender();
+                    Console.WriteLine("---------------------------------------------------------------------------------");
+                    Age();
+                    Console.WriteLine("---------------------------------------------------------------------------------");
 
-                Console.WriteLine("Hit enter to close session");
-                Console.ReadLine();
-                Client.Close();
+                    //Console.WriteLine("Hit enter to close session");
+                    //Console.ReadLine();
+                    //Client.Close();
+                }
+                else if (caseVariable == 2)
+                {
+                    AvailableCars();
+                    Console.WriteLine("---------------------------------------------------------------------------------");
+
+                    var responseColor = Client.Call(" ");
+                    Console.WriteLine($" [.] Colors available: {responseColor}");
+
+                    Console.WriteLine("---------------------------------------------------------------------------------");
+                    ColoredCars();
+                    Console.WriteLine("---------------------------------------------------------------------------------");
+                    RentCar();
+                    Console.WriteLine("---------------------------------------------------------------------------------");
+
+                    Console.WriteLine("Please provide us with your full name and driverlicens");
+                    var inputNameAndLicense = Console.ReadLine();
+                    Console.WriteLine($" [.] informations: {inputNameAndLicense}");
+                    var responseNameAndLicense = Client.Call(inputNameAndLicense);
+                    Console.WriteLine("Agregation: " + responseNameAndLicense);
+                    Console.WriteLine("---------------------------------------------------------------------------------");
+
+                    //Console.WriteLine("Hit enter to close session");
+                    //Console.ReadLine();
+                    //Client.Close();
+                }
+                else
+                {
+                    Console.WriteLine("ERROR, contact +42 5125123952");
+                }
+                //Client.Close();
             }
-            else if(caseVariable == 2)
-            {
-                AvailableCars();
-                Console.WriteLine("---------------------------------------------------------------------------------");
-
-                var responseColor = Client.Call(" ");
-                Console.WriteLine($" [.] Colors available: {responseColor}");
-
-                Console.WriteLine("---------------------------------------------------------------------------------");
-                ColoredCars();
-                Console.WriteLine("---------------------------------------------------------------------------------");
-                RentCar();
-                Console.WriteLine("---------------------------------------------------------------------------------");
-
-                Console.WriteLine("Please provide us with your full name and driverlicens");
-                var inputNameAndLicense = Console.ReadLine();
-                Console.WriteLine($" [.] informations: {inputNameAndLicense}");
-                var responseNameAndLicense = Client.Call(inputNameAndLicense);
-                Console.WriteLine("Agregation: " + responseNameAndLicense);
-                Console.WriteLine("---------------------------------------------------------------------------------");
-
-                Console.WriteLine("Hit enter to close session");
-                Console.ReadLine();
-                Client.Close();
-            }
-            else
-            {
-                Console.WriteLine("ERROR, contact +42 5125123952");
-            }
-            Console.WriteLine("Hit enter to close session");
-            Console.ReadLine();
-            Client.Close();
+            //Console.WriteLine("Hit enter to close session");
+            //Console.ReadLine();
+            //Client.Close();
         }
 
         /// <summary>
